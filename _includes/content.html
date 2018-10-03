@@ -4,11 +4,16 @@
 <p>Why study finance? Let's be honest, who doesn't like money?</p>
 
 <h2>Latest books I have read</h2>
-<ul>
-  <li>The Three-Body Problem by Cixin Liu</li>
-  <li>Superforecasting: The Art and Science of Prediction by Philip Tetlock</li>
-  <li>The Bookshop of Yesterdays by Amy Meyerson</li>
-</ul>
+<div style="width: 500px">
+  <span id="typed"></span>
+</div>
+<div id="typed-strings">
+  <p>The Three-Body Problem by Cixin Liu</p>
+  <p>Superforecasting: The Art and Science of Prediction by Philip Tetlock</p>
+  <p>The Bookshop of Yesterdays by Amy Meyerson</p>
+  <p>Principles by Ray Dalio</p>
+  <p>The Dark Forest by Cixin Liu</p>
+</div>
 
 <hr />
 
@@ -22,3 +27,14 @@
     <a href="https://www.linkedin.com/in/kevin-cottington-776476108/">LinkedIn</a>
   </li>
 </ul>
+
+<script>
+    var typed = new Typed('#typed', {
+      stringsElement: '#typed-strings',
+      typeSpeed: 5,
+      backSpeed: 0,
+      fadeOut: true,
+      loop: true,
+      backDelay: 2000
+  });
+</script>
