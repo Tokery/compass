@@ -1,8 +1,7 @@
 @keyframes fadeToBlack {
   0% {
-    background-color: #F40000; }
-  100% {
-    background-color: black; } }
+    background-color: #F40000;
+    transform: rotate(-45deg); } }
 body {
   font-family: 'Vollkorn', serif;
   color: white;
@@ -15,9 +14,6 @@ main {
 
 h1 {
   font-family: 'Anton', sans-serif; }
-
-body {
-  transform: rotate(-45deg); }
 
 /*** wrapper div for both header and main ***/
 .wrapper {
