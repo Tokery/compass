@@ -6,7 +6,7 @@ body {
   font-family: 'Vollkorn', serif;
   color: white;
   background-color: black;
-  animation: fadeToBlack 10s ease-in; }
+  animation: fadeToBlack 5s ease-in; }
 
 header,
 main {
