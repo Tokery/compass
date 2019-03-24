@@ -5,8 +5,8 @@
 body {
   font-family: 'Vollkorn', serif;
   color: white;
-  background-color: black;
-  animation: fadeToBlack 5s ease-in; }
+  background-color: #333333;
+  animation: fadeToBlack 2s ease-in; }
 
 header,
 main {
